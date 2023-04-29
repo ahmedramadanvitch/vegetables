@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vegetable</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/vegetablesmain.css">
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- font-awe-some -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google-fonts-cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS --swiper.js for carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"/>
+    <!-- Aos.js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- start nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand col-3 me-0 fs-1" href="#" data-aos="fade-down">
+                <!-- <img src="imgs/logo (1).png" alt=""> -->
+                vitch - shop
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-list"></i>
+            </button>
+            <div class="collapse navbar-collapse col-7" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link active text-uppercase" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">shop</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu bg-dark pt-0 pb-0" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Shop Details</a></li>
+                        <li><a class="dropdown-item" href="#">Shoping Cart </a></li>
+                        <li><a class="dropdown-item" href="#">Check Out</a></li>
+                        <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="nav-icon col-lg-2 col-md-12 d-flex justify-content-lg-end justify-content-sm-center gap-2 align-items-center">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa fa-shopping-bag"></i>
+                <p class="mb-0 ms-2">item: $150.00</p>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav bar -->
+
+    <!-- start landing -->
+    <div class="landing">
+        <div class="container">
+            <div class="row gap-sm-3 gap-md-0">
+
+                <div class="depart col-lg-3 col-md-12 mb-md-3 mb-lg-0" data-aos="fade-down">
+                    <ul>
+                        
+                        <li class="all-list d-flex justify-content-center align-items-center gap-3 p-3">
+                            <i class="fa-solid fa-bars"></i>
+                            <h5 class="fw-bold"> All Department </h5>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        
+                        <li>
+                            <a href="#">Fresh Meat</a>
+                        </li>
+                        <li>
+                            <a href="#">Vegetables</a>
+                        </li>
+                        <li>
+                            <a href="#">Fruit & Nut Gifts</a>
+                        </li>
+                        <li>
+                            <a href="#">Fresh Berries</a>
+                        </li>
+                        <li>
+                            <a href="#">Ocean Foods</a>
+                        </li>
+                        <li>
+                            <a href="#">Butter & Eggs</a>
+                        </li>
+                        <li>
+                            <a href="#">Fast food</a>
+                        </li>
+                        <li>
+                            <a href="#">Fresh Onion</a>
+                        </li>
+                        <li>
+                            <a href="#">Papayaya & Crisps</a>
+                        </li>
+                        <li>
+                            <a href="#">Oatmeal</a>
+                        </li>
+                        <li>
+                            <a href="#">Fresh Bananas</a>
+                        </li>
+          
+                    </ul>
+                </div>
+    
+                <div class="categories col-lg-9 col-md-12" data-aos="fade-up">
+                    
+                    <div class="head-categories row gap-sm-2 gap-md-0">
+                    
+                        <form class="d-flex col-lg-8 col-sm-12">
+                            <input class="form-control p-md-3"  type="search" placeholder="What do you need ?" aria-label="Search">
+                            <button class="btn btn-vegetables" type="submit">Search</button>
+                        </form>
+
+                        <div class="phone-icon col-lg-4 col-sm-12 mt-sm-3 mt-md-2 mt-lg-0 gap-4 d-flex justify-content-lg-end justify-content-sm-center align-items-center">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <span class="fw-bold fs-5 d-block">+65 11.188.888</span>
+                                <span class="d-block">support 24/7 time</span>
+                            </div>
+                        </div>
+                    
+                    </div>
+    
+                    <div class="img-categories d-flex position-relative" style="background-image: url(imgs/landing.jpg);">
+                        <div class="img-text position-relative">
+                            <p class="fw-bold">FRUIT FRESH</p>
+                            <h1 class="fw-bolder ms-0">Vegetable</h1>
+                            <h1 class="fw-bolder ms-0">100% Organic</h1>
+                            <span class="d-block mb-3">Free Pickup and Delivery Available</span>
+                            <button class="btn btn-vegetables ps-4 pe-4">Shop Now</button>
+                        </div>
+                    </div>
+    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End landing -->
+    
+    <!-- start section carousel landing sass -->
+    <!-- //////////////// from code pen /////////////////// -->
+    <section class="carousel-under-landing" data-aos="fade-up">
+        <div class="container">
+
+            <div class="carousel-wrap">
+                
+                <div class="owl-carousel">
+                  
+                    <div class="item">
+                        <img src="imgs/carousel-1.jpg" >
+                        <span class="d-block text-center fs-3 p-2 text-white"> fruits </span>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/carousel-2.jpg">
+                        <span class="d-block text-center fs-3 p-2 text-white"> Drinks </span>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/carousel-3.jpg">
+                        <span class="d-block text-center fs-3 p-2 text-white"> Orange  </span>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/carousel-4.jpg">
+                        <span class="d-block text-center fs-3 p-2 text-white"> Dried  </span>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/carousel-5.jpg">
+                        <span class="d-block text-center fs-3 p-2 text-white"> Meat </span>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/carousel-2.jpg">
+                        <span class="d-block text-center fs-3 p-2 text-white"> Juice  </span>
+                    </div>
+            
+                </div>
+        
+            </div>
+
+        </div>
+    </section>
+    <!-- //////////////// from code pen /////////////////// -->
+    <!-- end section carousel landing sass -->
+
+    <!-- start features -->
+    <section class="features p-2 mt-2 text-center position-relative">
+        <div class="container">
+            <h1 class="fw-bold" data-aos="fade-up">Featured Product</h1>
+            <hr class="main-hr">
+
+            <ul class="swicher-ul d-flex justify-content-center align-items-center pt-3" data-aos="fade-down">
+                <li class="fs-4 active" data-work=".all">All</li>
+                <li class="fs-4" data-work=".fruits">Fruits</li>
+                <li class="fs-4" data-work=".meat">Fresh Meat</li>
+                <li class="fs-4" data-work=".vegetable">Vegetables</li>
+                <li class="fs-4" data-work=".food">Fast Food</li>
+            </ul>
+
+            <div class="row mt-5 justify-content-center align-items-center">
+
+                <div class="box all meat col-3 position-relative mb-3" style="width: 18rem;" data-aos="fade-down" data-aos-duration="2000">
+                    <img src="imgs/carousel-5.jpg" alt="">
+                    <div class="box-icons text-center position-absolute d-flex justify-content-around align-items-center gap-3">
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-retweet"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <p class="fs-4 text-black-50 mb-0 text-center"> High quality </p>
+                    <span class="fw-bolder fs-4 text-center"> $30.00 </span>
+                </div>
+            
+                <div class="box all fruits col-3 position-relative mb-3" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="imgs/feature-1.jpg" alt="">
+                    <div class="box-icons text-center position-absolute d-flex justify-content-around align-items-center gap-3">
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-retweet"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <p class="fs-4 text-black-50 mb-0 text-center"> High quality </p>
+                    <span class="fw-bolder fs-4 text-center"> $30.00 </span>
+                </div>
+
+                <div class="box all fruits col-3 position-relative mb-3" style="width: 18rem;" data-aos="fade-down" data-aos-duration="2000">
+                    <img src="imgs/feature-3.jpg" alt="">
+                    <div class="box-icons text-center position-absolute d-flex justify-content-around align-items-center gap-3">
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-retweet"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <p class="fs-4 text-black-50 mb-0 text-center"> High quality </p>
+                    <span class="fw-bolder fs-4 text-center"> $30.00 </span>
+                </div>
+
+                <div class="box all vegetable col-3 position-relative mb-3" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="imgs/feature-4.jpg" alt="">
+                    <div class="box-icons text-center position-absolute d-flex justify-content-around align-items-center gap-3">
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-retweet"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <p class="fs-4 text-black-50 mb-0 text-center"> High quality </p>
+                    <span class="fw-bolder fs-4 text-center"> $30.00 </span>
+                </div>
+
+                <div class="box all vegetable col-3 position-relative mb-3" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="imgs/carousel-3.jpg" alt="">
+                    <div class="box-icons text-center position-absolute d-flex justify-content-around align-items-center gap-3">
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-retweet"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <p class="fs-4 text-black-50 mb-0 text-center"> High quality </p>
+                    <span class="fw-bolder fs-4 text-center"> $30.00 </span>
+                </div>
+
+                <div class="box all food col-3 position-relative mb-3" style="width: 18rem;" data-aos="fade-down" data-aos-duration="2000">
+                    <img src="imgs/feature-6.jpg" alt="">
+                    <div class="box-icons text-center position-absolute d-flex justify-content-around align-items-center gap-3">
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-retweet"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <p class="fs-4 text-black-50 mb-0 text-center"> High quality </p>
+                    <span class="fw-bolder fs-4 text-center"> $30.00 </span>
+                </div>
+
+                <div class="box all food col-3 position-relative mb-3" style="width: 18rem;" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="imgs/feature-7.jpg" alt="">
+                    <div class="box-icons text-center position-absolute d-flex justify-content-around align-items-center gap-3">
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-retweet"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <p class="fs-4 text-black-50 mb-0 text-center"> High quality </p>
+                    <span class="fw-bolder fs-4 text-center"> $30.00 </span>
+                </div>
+
+                <div class="box all food col-3 position-relative mb-3" style="width: 18rem;" data-aos="fade-down" data-aos-duration="2000">
+                    <img src="imgs/feature-8.jpg" alt="">
+                    <div class="box-icons text-center position-absolute d-flex justify-content-around align-items-center gap-3">
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-retweet"></i>
+                        </a>
+                        <a href="#" class="bg-white p-1 rounded-3">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <p class="fs-4 text-black-50 mb-0 text-center"> High quality </p>
+                    <span class="fw-bolder fs-4 text-center"> $30.00 </span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end features -->
+
+    <!-- start banner img -->
+    <section class="banner p-2 mb-3">
+        <div class="container">
+            <div class="row justify-content-around align-items-center gap-sm-1 gap-lg-0">
+                
+                <div class="col-lg-6 col-md-10 col-sm-12 mt-2" data-aos="fade-up">
+                    <img src="imgs/banner-1.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-6 col-md-10 col-sm-12 mt-2" data-aos="fade-down">
+                    <img src="imgs/banner-2.jpg" class="img-fluid" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end banner img -->
+
+    <!-- start blog -->
+    <section class="blog p-2 mt-5 position-relative">
+        <div class="container">
+            <h1 class="fw-bold text-center" data-aos="fade-up">From The Blog </h1>
+            <hr class="main-hr">
+
+            <div class="row mt-5 justify-content-around align-items-center">
+                
+                <div class="box-blog col-lg-4 col-md-6 col-sm-8" data-aos="fade-up">
+                    <div>
+                        <img src="imgs/blog-1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="blog-icon mt-3 text-black-50 d-flex justify-content-start align-items-center">
+                        <i class="fa fa-calendar-o pt-0 mt-0 me-1"></i>
+                        <p class="mb-0 me-3">May 4,2022</p>
+                        <i class="fa fa-comment-o me-1"></i>
+                        <p class="m-0">5</p>
+                    </div>
+                    <div class="text-blog mt-3">
+                        <h5 class="fw-bold">Cooking tips make cooking simple</h5>
+                        <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatum ea, iure sapiente assumenda officiis ullam</p>
+                    </div>
+                </div>
+            
+                <div class="box-blog col-lg-4 col-md-6 col-sm-8" data-aos="fade-down">
+                    <div>
+                        <img src="imgs/blog-2.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="blog-icon mt-3 text-black-50 d-flex justify-content-start align-items-center">
+                        <i class="fa fa-calendar-o pt-0 mt-0 me-1"></i>
+                        <p class="mb-0 me-3">May 4,2022</p>
+                        <i class="fa fa-comment-o me-1"></i>
+                        <p class="m-0">5</p>
+                    </div>
+                    <div class="text-blog mt-3">
+                        <h5 class="fw-bold">6 ways to prepare breakfast for 30</h5>
+                        <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatum ea, iure sapiente assumenda officiis ullam</p>
+                    </div>
+                </div>
+
+                <div class="box-blog col-lg-4 col-md-6 col-sm-8" data-aos="fade-up">
+                    <div>
+                        <img src="imgs/blog-3.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="blog-icon mt-3 text-black-50 d-flex justify-content-start align-items-center">
+                        <i class="fa fa-calendar-o pt-0 mt-0 me-1"></i>
+                        <p class="mb-0 me-3">May 4,2022</p>
+                        <i class="fa fa-comment-o me-1"></i>
+                        <p class="m-0">5</p>
+                    </div>
+                    <div class="text-blog mt-3">
+                        <h5 class="fw-bold">Visit the clean farm in the US</h5>
+                        <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatum ea, iure sapiente assumenda officiis ullam</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- end blog -->
+
+    <!-- start footer -->
+    <footer class="pt-5 pb-2 bg-light">
+        <div class="container">
+            <div class="row mb-5 justify-content-center align-items-center">
+
+                <div class="footer-logo col-lg-4 col-md-5 col-sm-6" data-aos="fade-up">
+                    <ul>
+                        
+                        <li class="mb-3">
+                            <a href="#" class="fs-1">
+                                <!-- <img src="imgs/logo (1).png" alt=""> -->
+                                vitch - shop
+                            </a>
+                        </li>
+                        <li>
+                            <p class="fs-5">Address: Egypt - sohag</p>
+                        </li>
+                        <li>
+                            <p class="fs-5">Phone: 01147998560</p>
+                        </li>
+                        <li>
+                            <p class="fs-5">Email: vitch@gmail.com</p>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-links col-lg-4 col-md-5 col-sm-6" data-aos="fade-down">
+                    <span class="fw-bold fs-5  d-block">Useful Links</span>
+                    <div class="d-flex justify-content-start gap-4 align-items-center">
+                        <ul>
+                            <li class="pt-1 pb-1">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">About Our Shop</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Secure Shopping</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Delivery infomation</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Our Sitemap</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Who We Are</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Our Services</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Projects</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Innovation</a>
+                            </li>
+                            <li class="pt-1 pb-1">
+                                <a href="#">Testimonials</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-contact col-lg-4 col-md-10 col-sm-12" data-aos="fade-up">
+                    <span class="fw-bold fs-5 mb-3 d-block">Join Our Newsletter Now</span>
+                    
+                    <ul>
+                        <li>
+                            <p class="mb-4 text-black-50">Get E-mail updates about our latest shop and special offers.</p>
+                        </li>
+                        <li class="d-flex mb-4">
+                            <input type="email" class="p-2" placeholder="Enter Your Mail">
+                            <button class="btn-vegetables">Subscribe</button>
+                        </li>
+                        <li class="contact-icons d-flex align-items-center gap-3">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f bg-white p-2 rounded-circle fs-4"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram bg-white p-2 rounded-circle fs-4"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter bg-white p-2 rounded-circle fs-4"></i>
+                            </a>
+                            
+                        </li>
+                    </ul>
+
+
+
+
+                    <!-- <div class="d-flex">
+                        <input type="email" class="p-3" placeholder="Enter Your Mail">
+                        <button class="btn-vegetables">Subscribe</button>
+                    </div> -->
+                    <!-- <div class="contact-icons d-flex align-items-center gap-3">
+                        <i class="fa-brands fa-facebook-f bg-white p-2"></i>
+                        <i class="fa-brands fa-instagram bg-white p-2"></i>
+                        <i class="fa-brands fa-twitter bg-white p-2"></i>
+                    </div> -->
+                </div>
+
+            </div>
+
+            <div class="Copyright pt-3 d-flex justify-content-between">
+                <p class="text-black-50">Copyright ©2022 All rights reserved </p>
+                <p class="created text-center fw-bold text-black-50">
+                    <i class="fas fa-heart"></i> 
+                    AHMED RAMADAN
+                    <i class="fas fa-heart"></i> 
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- Aos animate .js -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- script for carousel in page -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script>
+    <script src="https://use.fontawesome.com/826a7e3dce.js"></script>
+    
+
+    <!-- main js -->
+    <script src="js/vegetables.js"></script>
+</body>
+</html>

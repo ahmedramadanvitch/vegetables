@@ -1,0 +1,143 @@
+// start landing //
+.landing{
+    position: relative;
+    .depart{
+        color: white !important;
+        .all-list{
+            background-color: $green-color;
+        }
+        h5{
+            margin-bottom: 0px !important;
+        }
+        ul{
+            box-shadow: 0px 0px 5px 0px rgb(194, 194, 194);
+            li{
+                &:not(:nth-of-type(1)){
+                    padding: 10px 0px 5px 20px;
+                }
+                a{
+                    padding: 0px 60px 0 0;
+                    font-size: 18px;
+                    &:hover{
+                        color: $green-color !important;
+                    }
+                }
+            }
+        }
+        @include mobileScreen{
+            margin-bottom: 20px;
+        }
+    }
+    .categories{
+        .head-categories{
+            form{
+                position: relative;
+                z-index: 1;
+                input{
+                    border-right: none !important;
+                    border-radius: 0 !important;
+                    &:focus{
+                        border-color: $green-color !important;
+                        box-shadow: 0 0 0 .25rem rgba(13, 109, 253, 0) !important;
+                    }
+                }
+            }
+            .phone-icon{
+                i{
+                    background-color: $grey-bg-color;
+                    padding: 15px;
+                    border-radius: 50%;
+                    color: $green-color !important;
+                    font-size: 20px;
+                }
+                @include mobileScreen {
+                    margin-top: 15px;
+                }
+            }
+        }
+        .img-categories{
+            // background-image: url(../../../imgs/landing.jpg);
+            background-size: cover;
+            background-position: bottom right;
+            width: 100%;
+            height: 87%;
+            margin-top: 20px;
+            @include mobileScreen {
+                height: 100%;
+                background-position: center center;
+            }
+        }
+        .img-text{    
+            width: 50%;
+            top: 25%;
+            left: 60px;
+            h1{
+                font-size: 46px;
+            }
+            p{
+                color: $green-color;
+            }
+            span{
+                color: rgb(139, 139, 139);
+            }
+            @include mobileScreen {
+                top: 12%;
+            }
+        }
+    }
+}
+// end landing //
+
+// start carousel this code from code pen *** important code and js code ***
+.carousel-under-landing{
+    position: relative;
+    @include mobileScreen{
+        padding: 15px;
+        margin-top: 100px;
+    }
+    @include smallScreen{
+        margin-top: 80px;
+    }
+    @include MediumScreen{
+        margin-top: 20px;
+    }
+    .carousel-wrap {
+        margin: 10px auto;
+        padding: 0 0;
+        width: 94%;
+        position: relative;
+        /* fix blank or flashing items on carousel */
+        .owl-carousel .item {
+            position: relative;
+            z-index: 100; 
+            backface-visibility: hidden; 
+            img{
+                height: 300px;
+                padding: 35px 0;
+            }
+            span{
+                width: 100%;
+                position: absolute;
+                bottom: 10px;
+                background-color: $green-color !important;
+            }
+        }
+        /* end fix */
+        .owl-nav > div {
+            margin-top: -26px;
+            position: absolute;
+            top: 50%;
+            color: #cdcbcd;
+        }
+        .owl-nav i {
+            font-size: 52px;
+        }
+        .owl-nav .owl-prev {
+            left: -30px;
+        }
+        .owl-nav .owl-next {
+            right: -30px;
+        }
+    }
+}
+// end carousel

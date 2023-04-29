@@ -1,0 +1,13 @@
+.btn-vegetables{
+    color: white !important;
+    background-color: $green-color !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    border: none !important;
+    font-weight: 700 !important;
+    letter-spacing: 1.5px !important;
+    &:focus{
+        border-color: $green-color !important;
+        box-shadow: 0 0 0 0 !important;
+    }
+}

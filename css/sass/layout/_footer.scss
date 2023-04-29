@@ -1,0 +1,27 @@
+footer{
+    .footer-logo{
+        a{
+            color: $green-color !important;
+        }
+    }
+    .footer-contact{
+        input{
+            border-color: transparent !important;
+            outline: none !important;
+        }
+        .contact-icons{
+            i:hover{
+                color: $green-color;
+                transform: rotate(360deg);
+            }
+        }
+    }
+    .Copyright{
+        border-top: 1px solid rgba(206, 206, 206, 0.363);
+        .created{
+            &:hover i{
+                color: $green-color;
+            }
+        }
+    }
+}

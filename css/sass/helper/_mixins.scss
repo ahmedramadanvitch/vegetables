@@ -1,0 +1,45 @@
+// mobile screen
+@mixin mobileScreen {
+    @media (max-width : 767px){
+        @content;
+    }
+};
+// small screen
+@mixin smallScreen {
+    @media (min-width : 768px){
+        @content;
+    }
+};
+// medium screen
+@mixin MediumScreen {
+    @media (min-width : 991px){
+        @content;
+    }
+};
+// large screen
+@mixin largeScreen {
+    @media (min-width : 1200px){
+        @content;
+    }
+};
+// reset <ul>
+@mixin reset-ul {
+    margin: 0 !important;
+    padding: 0!important;
+    list-style: none !important;
+}
+// reset <a>
+@mixin reset-a-link {
+    color: black !important;
+    text-decoration: none !important;
+}
+// <hr>
+@mixin main-hr {
+    width: 150px !important;
+    height: 6px !important;
+    background-color: $green-color !important;
+    border: none !important;
+    margin: 10px auto !important;
+    border-radius: 8px !important;
+    color: $green-color !important;
+}

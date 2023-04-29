@@ -1,0 +1,31 @@
+// helper folder
+@import "sass/helper/variables";
+@import "sass/helper/mixins";
+
+// components folder
+@import "sass/components/buttons";
+
+// layout folder
+@import "sass/layout/header";
+@import "sass/layout/grid";
+@import "sass/layout/footer";
+
+// pages folder
+@import "sass/pages/landing";
+@import "sass/pages/features";
+
+body{
+    font-family: $font-cairo !important;
+}
+*{
+    transition: all .3s linear !important; 
+}
+ul{
+    @include reset-ul;
+}
+a{
+    @include reset-a-link;
+}
+hr{
+    @include main-hr;
+}

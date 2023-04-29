@@ -1,0 +1,39 @@
+.features{
+    ul{
+        @include mobileScreen{
+            flex-direction: column;
+        }
+        margin: 10px auto !important;
+        gap: 15px;
+        .active{
+            background-color: $green-color;
+            color: white;
+            border-radius: 10px;
+        }
+        li{
+            cursor: pointer;
+            padding: 1px 10px;
+        }
+    }
+    .box{
+        .box-icons{
+            bottom: 0px;
+            left: 100px;
+            opacity: 0;
+        }
+        &:hover .box-icons{
+            bottom: 90px;
+            opacity: 1;
+        }
+        .box-icons a:hover{
+            background-color: $green-color !important;
+        }
+        p , span{
+            background-color: white;
+            display: block;
+            width: 100% !important;
+            position: relative;
+            z-index: 100000;
+        }
+    }
+}
